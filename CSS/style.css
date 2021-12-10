@@ -34,6 +34,7 @@ main .container-js {
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  border: 2px solid #000;
 }
 
 .box.box-red {
