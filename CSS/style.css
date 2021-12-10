@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: cadetblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 60px;
+  padding: 20px 0;
+}
+
+main .container-js {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.box {
+  height: 150px;
+  width: calc(100% / 7 - 20px);
+  margin: 10px;
+}
+
+.box.box-red {
+  background-color: rgb(134, 37, 12);
+}
+
+.box.box-yellow {
+  background-color: rgb(209, 197, 30);
+}
+
+.box.box-green {
+  background-color: rgb(30, 209, 149);
+}
+
+.box.box-blue {
+  background-color: rgb(0, 119, 255);
+}
